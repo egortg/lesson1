@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.main-title {
+font-size: 2em; 
+text-align: center; 
+color: #333; 
+margin-bottom: 20px; 
+}
+
+
+.form {
+max-width: 400px; 
+max-height: 400px;
+margin: 0 auto;
+padding: 20px; 
+border: 1px solid #ccc; 
+border-radius: 5px; 
+background-color: #f9f9f9; 
+}
+
+
+.input-name {
+width: 90%; 
+padding: 10px; 
+margin: 10px 0; 
+border: 1px solid #ccc;
+border-radius: 5px; 
+}
+.input-email{
+width: 90%; 
+padding: 10px; 
+margin: 10px 0; 
+border: 1px solid #ccc;
+border-radius: 5px; 
+}
+.input-password{
+width: 90%; 
+padding: 10px; 
+margin: 10px 0; 
+border: 1px solid #ccc;
+border-radius: 5px; 
+}
+.input-checkbox{
+margin-left: 5px;
+border: 1px solid #ccc;
+border-radius: 5px; 
+}
+
+label {
+display: block; 
+margin-bottom: 5px; 
+color: #555; 
+}
+
+.submit-button {
+
+background-color: #4CAF50; 
+color: white; 
+border: none; 
+margin-top: 90px;
+padding: 10px; 
+border-radius: 5px; 
+cursor: pointer; 
+width: 100%; 
+}
+
+.submit-button:hover {
+background-color: #45a049; 
+}
+.form-checkbox{
+    display: flex;
+    align-items: center;
+}
+
+
