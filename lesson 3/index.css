@@ -1,0 +1,120 @@
+body{
+background-color: #BCDAC8;
+font-family: Consolas;
+}
+.all{
+max-width: 1600px;
+margin:  0 auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 40px;
+    margin-top: 10px;
+}
+.main-items{
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.items{
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+}
+.card{
+    transition: 0.3s;
+    background-color: #9CC6AD;
+    border-radius: 32px 32px 0px 0px;
+}
+.block{
+    width: 135px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 40px;
+    background-color: #9CC6AD;
+    font-family: Consolas;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    background-color: transparent;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    font-family: Consolas;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.menu-link:hover{
+    transform: scale(1.1);
+}
+.contacts{
+    display: flex;
+    width: 200px;
+    font-family: Consolas;
+    font-size: 14px;
+    background-color: transparent;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+}
+.card-btn{
+    font-size: 17px;
+    color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: #7CAB8E;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-text{
+    padding: 0px 5px;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+}
+.title{
+    color: #40474b;
+    font-size: 20px;
+}
+.card:hover{
+    transform: scale(1.03)
+}
+button:hover{
+    color: white;
+}
