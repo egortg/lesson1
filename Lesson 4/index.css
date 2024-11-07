@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+h1,h2,p{
+    margin: 0px;
+}
+.main_page{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 1326px;
+    border: 1px solid red;
+}
+.header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+display: flex;
+gap: 40px;
+}
+a{
+font-weight: 500;
+font-size: 20px;
+letter-spacing: -0.02em;
+color: #303031;
+    text-decoration: none;
+}
+.logo_text{
+font-family: var(--font4);
+font-weight: 500;
+font-size: 32px;
+letter-spacing: -0.04em;
+color: #303031;
+    padding-left: 8px;
+}
+.active{
+    color: #71a894;
+}
+/* */
+
+.landing{
+    display: flex;
+}
+.landing_main_text{
+font-family: var(--font3);
+font-weight: 400;
+font-size: 64px;
+line-height: 125%;
+color: #303031;
+}
+.desc{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: -0.02em;
+color: #66645e;
+}
+.image_landing{
+    margin-top: 82px;
+    height: 720px;
+    background: url("/img/blob-shape\ 1.svg");
+}
+.btn{
+margin-top: 40px;
+border: none;
+border-radius: 8px;
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 133%;
+color: #fff;
+width: 219px;
+height: 64px;
+background: #71A894;
+}
+.call_to_action{
+    margin-top: 191px;
+}
+h1{
+    margin-bottom: 24px;
+}
+/* */
+.text_advantages{
+    width: 895px;
+    margin-top: 434px;
+}
+.text_h2{
+    margin-bottom: 24px;
+font-family: var(--font3);
+font-weight: 400;
+font-size: 48px;
+line-height: 133%;
+text-align: center;
+color: #303031;
+}
+.desc_advantages{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: -0.02em;
+text-align: center;
+color: #303031;
+}
+.advantages_desc{
+    display: flex;
+    justify-content: center;
+}
+.advantages_info{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 23px;
+    margin-top: 48px;
+}
+.advantage{
+padding-top: 48px;
+border-radius: 8px;
+width: 427px;
+height: 340px;
+box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+background: #fff;
+}
+.advantage_h3{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 133%;
+text-align: center;
+color: #303031;
+}
+.advantage_desc{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 144%;
+text-align: center;
+color: #303031;
+}
+.img_adv{
+    display: flex;
+    justify-content: center;
+}
